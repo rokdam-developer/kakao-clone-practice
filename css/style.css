@@ -3,10 +3,10 @@
 /* Component */
 @import "./component/status-bar.css";
 @import "./component/header.css";
-
+@import "./component/user-profile.css";
 /* Screen */
 @import "./screen/welcome.css";
-
+@import "./screen/friends.css";
 
 :root {
     --yellow: #FAE100;

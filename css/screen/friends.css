@@ -1,0 +1,13 @@
+.friends-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-weight: 600;
+    margin: 15px 0px; 
+    background-color: rgba(248, 248, 248, 0.808);
+}
+
+.friends-display i{
+    opacity: 0.2;
+}
