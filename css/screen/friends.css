@@ -11,3 +11,19 @@
 .friends-display i{
     opacity: 0.2;
 }
+
+
+.channel__header-line{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel-title{
+    font-weight: 600;
+    color: rgba(0,0,0,.35);
+}
+
+.channel__header-line i {
+    color: rgba(0,0,0,.3);
+}
