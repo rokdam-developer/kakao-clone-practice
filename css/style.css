@@ -10,6 +10,7 @@
 /* Screen */
 @import "./screen/welcome.css";
 @import "./screen/friends.css";
+@import "./screen/find.css";
 
 :root {
     --yellow: #FAE100;

@@ -23,3 +23,13 @@
     bottom: 17px;
     right: -3px;
 }
+
+.cog-badge-case{
+    position: relative;
+}
+
+.cog-badge{
+    color: tomato;
+    position: absolute;
+    bottom: 18px;
+}
