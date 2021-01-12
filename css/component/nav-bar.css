@@ -1,0 +1,19 @@
+.nav{
+    position: relative;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8ce;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,.05);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-list i {
+    margin: 18px 0;
+    font-size: 25px;
+}
