@@ -43,3 +43,61 @@
     color:rgba(0,0,0,.4);
     font-weight: 600;
 }
+
+.chats-profile{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 25px;
+}
+
+.chats-profile__column{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile__lg{
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.chats-profile-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display:flex;
+}
+
+.chats-profile-text{
+    font-weight: 600;
+    font-size: 15px;
+    color:rgba(189, 189, 189, 0.952);
+}
+
+
+.chats-profile__column:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chats-time{
+    color:rgba(189, 189, 189, 0.952);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.chats-alarm{
+    background-color: tomato;
+    color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    font-size: 12px;
+    font-weight: 600;
+}
