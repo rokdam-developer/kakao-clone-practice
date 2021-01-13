@@ -33,3 +33,15 @@
     position: absolute;
     bottom: 18px;
 }
+
+.more-icon-case{
+    position: relative;
+}
+
+.more-icon-badge{
+    color: tomato;
+    position: absolute;
+    font-size: 45px;
+    bottom: 48px;
+    right: 5px;
+}
