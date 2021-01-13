@@ -18,3 +18,16 @@
 .find-header{
     margin-top: 20px;
 }
+
+.setting-header{
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+
+.setting-header i {
+    color: rgba(0,0,0,.7);
+}
+
+.settings-title{
+    font-size: 25px;
+}

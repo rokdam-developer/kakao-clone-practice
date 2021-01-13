@@ -1,0 +1,41 @@
+.settings-icon{
+    margin:0px 40px;
+}
+
+.settings-icon__list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgba(0,0,0,.03);
+}
+
+.settings-icon__not-border{
+    border: none;
+}
+
+.settings-icon__column{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.settings-icon__column i {
+    color: rgba(0,0,0,.6);
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.settings-icon__title{
+    font-size: 18px;
+}
+
+.settings-icon__text{
+    color:rgba(0,0,0,.4);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.settings-icon__end-line{
+    margin:0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
