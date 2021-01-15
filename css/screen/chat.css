@@ -1,0 +1,94 @@
+.body{
+    background-color: rgb(147, 184, 106);
+    height: 120vh;
+}
+
+.date-bar{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 90px;
+}
+
+.date__text{
+    background-color: rgba(0,0,0,.3);
+    padding:  8px 13px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.send-box{
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    color: rgba(0,0,0,.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.send-box__column{
+    display:flex;
+    align-items: center;   
+}
+.fa-plus-circle,
+.fa-smile{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.send-box__column:nth-child(1){
+    width: 8%;
+}
+.send-box__column:nth-child(2){
+    position: relative;
+    width: 86%;
+}
+
+.send-box__input{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 20px;
+    background-color: #adadad05;
+    outline: none;
+    width: 100%;
+}
+
+.send-box__input::placeholder{
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.send-box__submit-btn{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.fa-smile{
+    position: absolute;
+    top: 4px;
+    right: 40px;
+}
+
+.fa-arrow-up{
+    color:black;
+    background-color: var(--yellow);
+    padding: 7px 8px;
+    font-size: 16px;
+    border-radius: 18px;
+}

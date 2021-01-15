@@ -1,8 +1,19 @@
+.header-fixed{
+    position: fixed;
+    top: 0;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px 25px 20px 25px;
+    background-color: #93B86A;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:40px 25px 20px 25px;
+    margin: 40px 25px 20px 25px;
+    z-index: 99;
 }
 
 .header-title{
@@ -16,18 +27,38 @@
 }
 
 .find-header{
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .setting-header{
-    margin-top:15px;
-    margin-bottom: 10px;
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
 }
+
+.setting-header__column{
+    width: 33%;
+}
+
+.setting-header__column:nth-child(2){
+    display: flex;
+    justify-content: center;    
+}
+
+.setting-header__column:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 
 .setting-header i {
     color: rgba(0,0,0,.7);
 }
 
 .settings-title{
-    font-size: 25px;
+    font-size: 24px;
 }
+
+
+
