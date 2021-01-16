@@ -1,19 +1,22 @@
-.header-fixed{
-    position: fixed;
-    top: 0;
-    width: 90%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 40px 25px 20px 25px;
-    background-color: #93B86A;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 25px 20px 25px;
-    z-index: 99;
+    margin: 40px 25px 25px 25px;
+    z-index: 2;
+}
+
+
+.header-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 45px 10px 0;
+    background-color: #93B86A;
+    display: flex;
+    align-items: center;
+    
 }
 
 .header-title{
@@ -26,12 +29,9 @@
     font-size: 24px;
 }
 
-.find-header{
-    margin-top: 45px;
-}
 
 .setting-header{
-    margin: 0px 25px;
+    margin: 40px 25px;
     display: flex;
     align-items: center;
 }

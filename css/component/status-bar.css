@@ -1,16 +1,21 @@
 .status-bar {
     display: flex;
-    margin: 5px 10px;
-    position: fixed;
-    width: 96%;
+    margin: 10px;
+    width: 98%;
+    box-sizing: border-box;
     top:0;
-    z-index: 99;
+    
 }
 
-.status-bar__chat-color{
-    background-color:#93B86A;
-    margin: 0;
-    padding: 5px 10px;
+.status-bar__chat-fix{
+    display: flex;
+    padding: 10px 10px 15px 10px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top:0;
+    z-index: 0;
+       background-color: #93B86A;
 }
 
 .status-bar__column {
